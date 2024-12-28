@@ -1,10 +1,8 @@
 # react-image-search-app
 
 unsplash api를 이용하여 이미지 검색 및 무한 스크롤 기능 구현
-
-<p>
-
-</p>
+<br />
+<br />
 
 ## 📌 시작하기
 ### 1. 클론받기
