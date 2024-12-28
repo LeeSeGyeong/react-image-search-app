@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1vmin;
+}
+
+li {
+  flex-grow: 1;
+  margin: 1vmin;
+  list-style-type: none;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+}

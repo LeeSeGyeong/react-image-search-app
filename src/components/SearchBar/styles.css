@@ -1,0 +1,21 @@
+.search-form {
+  display: flex;
+  height: 25px;
+  justify-content: center;
+}
+
+.search-form input[type=text] {
+  width: 200px;
+  border: none;
+  background: none;
+  border-bottom: solid #aaaaaa 1px;
+}
+
+button {
+  width: 80px;
+  margin-left: 5px;
+  color: var(--color-gray-dark);
+  border-radius: 6px;
+  border-color: whitesmoke;
+  background: linear-gradient(to bottom, transparent 50%, rgba(10, 20, 30, .02) 100%), white;
+}

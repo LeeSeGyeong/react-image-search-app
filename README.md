@@ -1,8 +1,45 @@
-# React + Vite
+# react-image-search-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+unsplash api를 이용하여 이미지 검색 및 무한 스크롤 기능 구현
 
-Currently, two official plugins are available:
+<p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</p>
+
+## 📌 시작하기
+### 1. 클론받기
+```
+ git clone GIT_URL
+```
+
+### 2. 저장된 디렉토리로 이동
+```
+cd GIT_저장소_이름
+```
+
+### 3. VS Code 실행
+```
+code .
+```
+
+### 4. 의존성 패키지 설치
+```
+npm install
+```
+
+### 5. 로컬 서버 실행
+```
+npm run dev
+```
+
+## 📌 구현 기능
+### 이미지 검색 기능
+- 검색어를 입력할 수 있는 입력창 구현
+- 사용자가 입력한 검색어를 기준으로 이미지를 검색하는 기능
+
+### 검색 결과 출력
+- Unsplash API를 이용하여 검색어에 해당하는 이미지를 가져옴
+- 검색 결과 이미지를 카드 형태로 표시
+
+### 무한 스크롤 기능
+- 사용자가 스크롤을 내릴 때마다 자동으로 추가 이미지를 로드
