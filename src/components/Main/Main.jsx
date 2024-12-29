@@ -19,14 +19,11 @@ export default function Main() {
     }
   }, [inView]);
 
-  useEffect(() => {
-  }, [searchValue]);
-
   const fetchData = async () => {
     const fetch = async () => {
       const response = await getImages(searchValue, page);
       if (response) {
-        setSearchResult((prevResponse) => [...prevResponse, ...response]);
+        setSearchResult(prevResponse => [...prevResponse, ...response]);
       }
     };
     fetch();

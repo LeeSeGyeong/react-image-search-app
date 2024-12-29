@@ -9,5 +9,4 @@ export async function getImages(query, page) {
   } catch (e) {
     console.log(e);
   }
-
 }
